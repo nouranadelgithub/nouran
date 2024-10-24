@@ -10,5 +10,5 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.x'
-        - name: Run Python script
-          run: python hello.py
+      - name: Run Python script
+        run: python hello.py
